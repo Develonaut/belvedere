@@ -1,3 +1,3 @@
-# BelvedereJS
+# BelvederejS
 
-BelevedereJS is a client-side Javascript library used to prompt a user to sign up for push notifications. 
+A client-side Javascript library Prompt users for Push notifications.
