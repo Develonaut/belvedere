@@ -2,9 +2,9 @@ import { stringify, parse, extract } from "query-string";
 
 export function getUrls() {
   return {
-    TRACK: "//do.pushible.com/impression.do",
-    TOKEN_SUBSCRIBE: "//pushible.com/api/add",
-    SW_BASE: "./sw.js"
+    TRACK: "", // Url to send Analytics payload.
+    TOKEN_SUBSCRIBE: "", // Url to send subscribe payload.
+    SW_BASE: "./sw.js" // Relative path to service work location.
   };
 }
 

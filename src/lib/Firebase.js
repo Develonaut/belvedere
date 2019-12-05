@@ -18,13 +18,14 @@ export default class Firebase {
 
   init() {
     return new Promise((resolve, reject) => {
+      // Add you own API info here.
       const config = {
-        apiKey: "AIzaSyAfuBzsXkc-Eki7mwjTlKrZOBG1wb9mg4o",
-        authDomain: "desktop-notification-63145.firebaseapp.com",
-        databaseURL: "https://desktop-notification-63145.firebaseio.com",
-        projectId: "desktop-notification-63145",
+        apiKey: "",
+        authDomain: "",
+        databaseURL: "",
+        projectId: "",
         storageBucket: "",
-        messagingSenderId: "88633873180"
+        messagingSenderId: ""
       };
 
       if (!firebase) {
